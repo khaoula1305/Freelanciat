@@ -11,7 +11,6 @@ constructor() { }
 
   ngOnInit() {
   }
-  PropertyBindingFatiha = 'Fatiha';
   members=[{
     name:"Benchari",
     role:"Fullstack developer"
@@ -21,9 +20,5 @@ constructor() { }
     role:"Backend developer"
   }
   ];
-  onAllumer() {
-    alert('On allume tout !');
-}
-
 
 }

@@ -2,11 +2,7 @@
       <div class="row">
         <app-team memberName="khaoula"></app-team>
         <app-team [memberName]="'Salwa'"></app-team>
-        <app-team [memberName]="PropertyBindingFatiha"></app-team> 
       <app-team *ngFor="let member of members" [memberName]="member.name" [role]="member.role"></app-team>   
      
         
-      </div>   
-       <button class="btn btn-success" 
-              [disabled]="!isAuth" 
-              (click)="onAllumer()">Tout allumer</button>
+      </div>

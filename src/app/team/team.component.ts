@@ -12,7 +12,5 @@ export class TeamComponent implements OnInit {
 
   ngOnInit() {
   }
-getStatus() {
-    return this.memberName;
-  }
+
 }
