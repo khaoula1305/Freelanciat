@@ -8,17 +8,21 @@ import { Component, OnInit } from '@angular/core';
 export class TeamViewComponent implements OnInit {
 
 constructor() { }
+  members = [{
+    name: 'Benchari',
+    role: 'Fullstack developer'
+  },
+  {
+    name: 'fatiha',
+    role: 'Backend developer'
+  },
+    {
+      name: 'Siham',
+      role: 'FrontEnd',
+    }
+  ];
 
   ngOnInit() {
   }
-  members=[{
-    name:"Benchari",
-    role:"Fullstack developer"
-  },
-  {
-    name:"fatiha",
-    role:"Backend developer"
-  }
-  ];
 
 }
