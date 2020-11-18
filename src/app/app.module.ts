@@ -7,6 +7,7 @@ import { ServiceComponent } from './service/service.component';
 
 import { FormsModule } from '@angular/forms';
 import { ContactComponent } from './contact/contact.component';
+import { FooterComponent } from './footer/footer.component';
 
 
 
@@ -15,6 +16,7 @@ import { ContactComponent } from './contact/contact.component';
     AppComponent,
     ServiceComponent,
     ContactComponent,
+    FooterComponent,
 
   ],
   imports: [
